@@ -1,0 +1,174 @@
+body {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #333;
+  font-family: sans-serif;
+}
+
+header {
+  background: #333;
+  padding-top: .5em;
+}
+
+header img {
+  display: block;
+  margin: 0 auto;
+  width: 125px;
+}
+
+header ul {
+  margin: 0;
+  padding: .7em;
+  text-align: center;
+}
+
+header ul li {
+  color: #ccc;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  border-right: 1px solid #ccc;
+  color: #51744e;
+  display: inline-block;
+  font-size: 13px;
+  padding: .2em 1em;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
+ul li:last-child {
+  border-right: none;
+}
+
+main {
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 1.8em 0;
+  text-align: center;
+}
+
+.blurb {
+  font-size: 19px;
+  line-height: 30px;
+}
+
+.banner-text {
+  color: #333;
+  font-size: 155%;
+  font-weight: normal;
+  background-color: #eaf5e9;
+  padding: 10px 15px;
+  border-radius: 2px;
+  margin-top: 1em;
+}
+
+h1 {
+  font-size: 29px;
+  font-weight: normal;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.download-block {
+  display: inline-block;
+  margin: 0 .7em;
+}
+
+.download-block ul li {
+  padding: 0 .3em;
+}
+
+.btn {
+  background: #026e00;
+  border-radius: 2px;
+  color: white;
+  display: inline-block;
+  font-size: 30px;
+  padding: 12px 36px;
+}
+
+.btn:hover {
+  opacity: .85;
+}
+
+small {
+  display: block;
+  font-size: 15px;
+}
+
+footer {
+  background: #333;
+  color: white;
+  padding: 14px 20px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 950px;
+}
+
+footer p {
+  font-size: 13px;
+}
+
+footer ul {
+  float: right;
+  margin-top: 0;
+}
+
+footer ul li {
+  border-right: 1px solid #ccc;
+  color: #ccc;
+  display: inline-block;
+  font-size: 13px;
+  padding: .2em;
+}
+
+footer a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.greenLink {
+  color: #43853d;
+  text-decoration: none;
+}
+
+.greenLink:hover {
+  background-color: #43853d;
+  border-radius: 2px;
+  color: white;
+  padding: 4px 0;
+}
+
+.footerp {
+  margin-top: 0;
+}
+
+.one {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.two {
+  color: #43853d;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.three {
+  padding: 8px 0;
+}
